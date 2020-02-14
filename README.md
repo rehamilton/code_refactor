@@ -15,7 +15,7 @@ The following assumptions have been made which should be checked for any future 
 2. Comments added to each area of the page for ease of understanding
 2. HTML layout cleaned to show natural progression of page and for ease of reading.
 2. Main image set from "div" to "figure" and class removed as no longer required
-2. The main content has been changed from "div"to "main"
+2. The main content has been changed from "div" to "main"
     - previous "div" classes in the main area have been removed as formatting should be consistent in this area save the float functions.
     - "alt" references have been added to images.
     - float classes relating to the location of images have been left.
@@ -23,7 +23,9 @@ The following assumptions have been made which should be checked for any future 
 3. The information to the right hand side of the page has changed from "div" to "aside"
     - "alt" references have been added to images
     - "div"s changed to "article"s 
-3. Footer changed to h3 to better show progression of headeing attributes through the page
+3. Footer 
+    - "div" changed to "footer"
+    - heading attribute changed to better show progression of headeing attributes through the page
 
 
 ## Changes to CSS
@@ -34,4 +36,5 @@ The following assumptions have been made which should be checked for any future 
 1. As images in the main area are standardised reduced classes to make one formatting rule for all images in that area but left "float" classes which are unique to each section within "main".
 1. As images in the aside are standardised reduced classes to make one formatting rule for all images in that area.
 1. As headings had been cleaned in the html heading attributes could be used to create formatting.
+1. Consolidation carried out where possible in line with the above assumptions
 
