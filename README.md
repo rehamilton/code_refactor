@@ -1,14 +1,11 @@
 # code_refactor
 # Code Refactor Homework Submission Guide
 
-In order to comply with accessible 
-
-
 The following assumptions have been made which should be checked for any future changes to the site
 
 ## Assumptions
-1. All images and text in the main section will be consistently styled.
-2. All images and text within the aside section will be consistently styled.
+1. All images and text in the main section will continue to be consistently styled.
+2. All images and text within the aside section will continue to be be consistently styled.
 3. All navigation tools will remain consistent.
 4. There may be more list items added to seperate sections of the website in the future so navigation area formatting must be unique.
 
