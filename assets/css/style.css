@@ -4,11 +4,23 @@
     margin: 0;
 }
 
-
+/* main body background colour*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Navigation text formatting*/
+a {
+    color: #ffffff;
+    text-decoration: none;    
+}
+
+/* Generic text formatting*/
+p {
+    font-size: 16px;
+}
+
+/* Page Header formatting*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,38 +28,34 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* Website Heading*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Highlight "seo" in website heading text*/
+h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+/* navigation formatting float to right hand side of page*/
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
-header nav ul li {
+/* Place navigation list in row*/
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-figure {
+/* Website header picture*/
+figure { 
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -56,22 +64,43 @@ figure {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main page contents formatting*/
 main {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px;    
 }
 
+/* Base formatting for main area content*/
+.main {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* "Main" Headings"*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Float item to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+    height: 200px;
+}
+
+/* Float item to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+    height: 200px
+}
+
+/* Aside content formatting*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -83,30 +112,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* Formatting for aside sections*/
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside h3 {
+/* Aside Headings*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.main {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Image formatting for aside area*/
+.aside_image {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
 }
 
-.main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Formatting*/
 footer {
     padding: 30px;
     clear: both;
@@ -115,4 +140,7 @@ footer {
     text-align: center;
 }
 
-
+/* Footer Heading*/
+h4 {
+    font-size: 20px;
+}
